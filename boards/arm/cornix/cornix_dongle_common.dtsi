@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
+#include "cornix-pinctrl.dtsi"
 #include "cornix-layouts.dtsi"
 #include "cornix_sensors.dtsi"
 /{
