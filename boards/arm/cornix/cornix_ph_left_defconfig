@@ -33,6 +33,8 @@ CONFIG_CLOCK_CONTROL_NRF_K32SRC_RC=y
 
 CONFIG_ZMK_SPLIT=y
 
+# Multi-dongle support: allow bonding with 2 centrals (home + office dongles)
+CONFIG_BT_MAX_PAIRED=2
 
 CONFIG_ZMK_STUDIO=n
 

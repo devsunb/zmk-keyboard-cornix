@@ -32,6 +32,8 @@ CONFIG_CLOCK_CONTROL_NRF_K32SRC_RC=y
 CONFIG_ZMK_USB=n
 CONFIG_ZMK_BLE=y
 
+# Multi-dongle support: allow bonding with 2 centrals (home + office dongles)
+CONFIG_BT_MAX_PAIRED=2
 
 CONFIG_INPUT=y
 
