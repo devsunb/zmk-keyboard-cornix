@@ -1,5 +1,12 @@
 if SHIELD_CORNIX_DONGLE_EYELASH
 
+config CORNIX_DONGLE_DISPLAY_ROTATION_180
+    bool "Rotate display 180 degrees"
+    default y
+    help
+        Enable to rotate the display 180 degrees.
+        Disable for 0 degrees (original orientation).
+
 if ZMK_DISPLAY
 
 config I2C

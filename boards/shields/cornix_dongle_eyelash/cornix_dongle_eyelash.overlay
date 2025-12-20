@@ -38,8 +38,10 @@
         page-offset = <0>;
         display-offset = <0>;
         multiplex-ratio = <63>;
+#if IS_ENABLED(CONFIG_CORNIX_DONGLE_DISPLAY_ROTATION_180)
         segment-remap;
         com-invdir;
+#endif
         inversion-on;
         prechargep = <0x22>;
 	};
